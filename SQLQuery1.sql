@@ -9,18 +9,21 @@ ORDER BY 3,4;
 
 
 
--- SELECT the data to be used 
+-- SELECT the data to be used from death table
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM [Portfolio Projects]..CovidDeath
 ORDER BY 1,2;
 
-/*looking out for countries and the highest death record between 2020-01-01 to 2021-10-20*/
-WITH deaths AS (SELECT location, date, total_cases, new_cases, total_deaths, population
-						FROM [Portfolio Projects]..CovidDeath
-						)
 
-SELECT deaths.location, MAX(deaths.total_deaths) death_count
-FROM deaths
-GROUP BY deaths.location
-HAVING deaths.location NOT IN ('Africa','Asia','Europe','North America','South America', 'Australia', 'Antarctica', 'World')
-ORDER BY MAX(deaths.total_deaths) ASC;
+-- Looking at the percentage of death 
+SELECT location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 percentage_death
+FROM [Portfolio Projects]..CovidDeath
+ORDER BY 1,2;
+
+
+-- Looking at the percantage of population that got COVID
+SELECT location, date, total_cases, population, (total_cases/population)*100 percentage_of_population_withCOVID
+FROM [Portfolio Projects]..CovidDeath
+WHERE location LIKE '%india%'
+ORDER BY 1,2;
+
