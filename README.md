@@ -16,6 +16,13 @@ Analysis on the COVID 19 padamic data from [Our World data](https://ourworldinda
 
 **SQL Query Script**
 - COVID SQL Query Script for analysis (.sql)
+- Tableau Visualization SQL Query Script (.sql)
+
+**Tableau**
+- Tableau visual 1 data
+- Tableau visual 2 data
+- Tableau visual 3 data
+- Tableau visual 4 data
 
 
 ## Actions Steps
