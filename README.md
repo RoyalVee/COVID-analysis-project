@@ -1,6 +1,13 @@
 # COVID-analysis-project
 Analysis on the COVID 19 padamic data from [Our World data](https://ourworldindata.org/) from January 1st, 2020 to October 20th, 2021
 
+## Tools
+- SSMS (Microsoft SQL Sever Management Studio 18)
+- SQL Sever (SQL Sever 2019)
+- Microsoft Excel
+- Tableau
+- 
+
 ## CONTENT Files
 **DATA**
 - owid-covid-data (RAW CSV covid death data from [Our World data](https://ourworldindata.org/covid-deaths))
