@@ -13,6 +13,8 @@ Analysis on the COVID 19 padamic data from [Our World data](https://ourworldinda
 - owid-covid-data (RAW CSV covid death data from [Our World data](https://ourworldindata.org/covid-deaths))
 - CovidDeath (Derived from owid-covid-data)
 - CovidVaccinations (Derived from owid-covid-data)
+
+**SQL Query Script**
 - COVID SQL Query Script for analysis (.sql)
 - 
 
