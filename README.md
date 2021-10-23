@@ -6,7 +6,7 @@ Analysis on the COVID 19 padamic data from [Our World data](https://ourworldinda
 - SQL Sever (SQL Sever 2019)
 - Microsoft Excel
 - Tableau
-- 
+
 
 ## CONTENT Files
 **DATA**
@@ -16,10 +16,13 @@ Analysis on the COVID 19 padamic data from [Our World data](https://ourworldinda
 
 **SQL Query Script**
 - COVID SQL Query Script for analysis (.sql)
-- 
+
 
 ## Actions Steps
 - Create a new database in Micrsoft SQL sever (DB Name: Portfolio Projects)
 - Import the CovidDeath data excel wookbook(.xlsx) file into the data base created.
 - Import the CovidVaccinations data excel wookbook(.xlsx) file into the data base created.
 - Writing DATA manipulation SQL Script for detailed examination of the covid data
+
+## Visualizations (Tableau)
+- [World COVID Analysis (Jan-2020 to Oct-2021)](https://public.tableau.com/app/profile/victor.oguche/viz/WorldCOVIDAnalysisJan-2020toOct-2021/COVIDDataAnalysisViewBoard)
